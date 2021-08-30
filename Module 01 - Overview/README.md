@@ -6,7 +6,7 @@
 * Container - your software plus everything else it depends on to run.
 * Orchestration - the automated configuration, coordination, and management of computer systems and software.
 * OpenShift - a commercial distribution of Kubernetes, made by Red Hat.
-* Image - a read-only file that used to create containers.
+* Image - a read-only file that is used to create containers.
 * Image Stream - one or more images identified by labels.
 * Label - text that is added to images to give special meaning to users.
 * Pod - one or more containers that run together. This is the smallest thing that Kubernetes actually orchestrates.
