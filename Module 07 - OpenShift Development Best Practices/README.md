@@ -22,16 +22,6 @@ Now you know that all the objects in OpenShift can be labeled. This is important
 
 See also: https://redhatgov.io/workshops/openshift_4_101/lab7-labels/
 
-#### CI/CD Pipelines
-
-In modern software projects many teams utilize the concept of Continuous Integration (CI) and Continuous Delivery (CD). By setting up a tool chain that continuously builds, tests, and stages software releases, a team can ensure that their product can be reliably released at any time. OpenShift can be an enabler in the creation and management of this toolchain.
-
-1. $ `brew install tektoncd-cli`
-1. https://github.com/openshift/pipelines-tutorial/blob/master/install-operator.md
-1. https://github.com/openshift/pipelines-tutorial/
-
-See also: https://redhatgov.io/workshops/openshift_4_101/lab8-cicd/
-
 #### Blue/Green Deployments
 
 When implementing CI/CD, one very useful technique is called blue/green deployments. It addresses the desire to minimize downtime during the release of a new version of an application to production. Essentially, it involves running two production versions of your app side-by-side and then switching the routing from the last stable version to the new version once it is verified. Using OpenShift, this can be seamless because using containers we can easily and rapidly deploy a duplicate infrastructure to support alternate versions and modify routes to a service.
@@ -49,5 +39,15 @@ https://redhatgov.io/workshops/openshift_4_101/lab9-bluegreen/
 1. This will bring up the Route configuration yaml. Edit the element "spec:". On the "to:" "name:" line, change its value from "green" to "blue".
 
 See also: https://redhatgov.io/workshops/openshift_4_101/lab9-bluegreen/
+
+#### CI/CD Pipelines
+
+In modern software projects many teams utilize the concept of Continuous Integration (CI) and Continuous Delivery (CD). By setting up a tool chain that continuously builds, tests, and stages software releases, a team can ensure that their product can be reliably released at any time. OpenShift can be an enabler in the creation and management of this toolchain.
+
+1. $ `brew install tektoncd-cli`
+1. https://github.com/openshift/pipelines-tutorial/blob/master/install-operator.md
+1. https://github.com/openshift/pipelines-tutorial/
+
+See also: https://redhatgov.io/workshops/openshift_4_101/lab8-cicd/
 
 # [Module 06 <<](../Module%2006%20-%20Replication%20and%20Recovery) | [>> Onward! Download a free 60-day OpenShift Container Platform eval today. ](https://www.openshift.com/try?sc_cid=7013a000002Dfg9AAC)

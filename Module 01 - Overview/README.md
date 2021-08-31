@@ -2,25 +2,25 @@
 
 ## Some Vocabulary
 
-* Kubernetes - an open-source container orchestration system.
-* Container - your software plus everything else it depends on to run.
-* Orchestration - the automated configuration, coordination, and management of computer systems and software.
-* OpenShift - a commercial distribution of Kubernetes, made by Red Hat.
-* Image - a read-only file that is used to create containers.
-* Image Stream - one or more images identified by labels.
-* Label - text that is added to images to give special meaning to users.
-* Pod - one or more containers that run together. This is the smallest thing that Kubernetes actually orchestrates.
-* Service - provides a common DNS name to access a pod (or set of pods).
-* Project - a group of services that are related to each other in some way.
-* Application - any computer software made to help a user to do specific things.
-* Deployment - any change to your application, that is started by a image change or a configuration change.
-* Build - the process of turning your source code into an image that containers can be created from.
-* BuildConfig - configuration data that determines how to manage your build.
-* Route - a labeled and DNS mapped network path to a service from outside OpenShift.
-* Operator - a way of packaging, deploying and managing a Kubernetes application.
-* Cluster - made up of master and worker nodes.
-* Master node - schedules things that are meant to happen, watches for problems, and orchestrates everything. In the real world, there are usually at least three of these.
-* Worker node - where the pods run. In the real world, there are usually two or more of these.
+* **Kubernetes**: an open-source _container_ _orchestration_ system.
+* **Container**: your software plus everything else it depends on to run.
+* **Orchestration**: the automated configuration, coordination, and management of computer systems and software.
+* **OpenShift**: the word's best distribution of _Kubernetes_, made by Red Hat.
+* **Image**: a read-only file that is used to create _containers_.
+* **Image Stream**: one or more container _images_ identified by labels.
+* **Label**: text that is added to container _images_ to give special meaning to users.
+* **Pod**: one or more _containers_ that run together. This is the smallest thing that _Kubernetes_ actually _orchestrates_.
+* **Service**: provides a common DNS name to access a _pod_ (or set of pods).
+* **Project**: a group of _services_ that are related to each other in some way.
+* **Application**: any computer software made to help a user to do specific things.
+* **Deployment**: any change to your _application_, that is started by a container _image_ change or a configuration change.
+* **Build**: the process of turning your source code into an _image_ that _containers_ can be created from.
+* **BuildConfig**: configuration data that determines how to manage your _build_.
+* **Route**: a labeled and DNS mapped network path to a service from outside OpenShift.
+* **Operator**: a way of packaging, deploying and managing a _Kubernetes_ _application_.
+* **Cluster**: made up of _control_ and _worker nodes_.
+* **Control node**: schedules things that are meant to happen, watches for problems, and _orchestrates_ everything. In the real world, there are usually at least three of these.
+* **Worker node**: where the _pods_ run. In the real world, there are usually two or more of these.
 
 ## Module Overview
 
