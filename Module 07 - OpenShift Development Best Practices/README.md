@@ -12,7 +12,7 @@ For example, pods are "tagged" with labels, and then services use label selector
 
 1. $ `oc get pods`
 1. $ `oc describe pod/<PODNAME> | grep Labels: --context=4`
-1. $ `oc label pod/<PODNAME> testdate=5.25.2021 testedby=$USER`
+1. $ `oc label pod/<PODNAME> testdate=11.18.2021 testedby=$USER`
 1. $ `oc describe pod/<PODNAME> | grep Labels: --context=4`
 1. $ `oc delete all -l app=dc-metro-map`
 1. $ `oc delete secrets dc-metro-map-generic-webhook-secret dc-metro-map-github-webhook-secret 2>/dev/null`
